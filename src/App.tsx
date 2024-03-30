@@ -1,8 +1,15 @@
 import './App.css'
+import { Header, Footer } from './components/index'
+
+import { Outlet } from 'react-router-dom'
 
 function App() {
   return (
-    <div></div>
+    <>
+      <Header />
+      <Outlet />
+      <Footer />
+    </>
   )
 }
 
