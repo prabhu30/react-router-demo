@@ -5,7 +5,7 @@ function GitPeek() {
   const [ inputUsername, setInputUsername ] = useState("/gitpeek/prabhu30")
 
   return (
-    <div className="mx-auto max-w-screen-lg flex flex-col items-center my-10">
+    <div className="mx-auto max-w-screen-lg flex flex-col items-center my-28">
       <h1 className="text-3xl font-bold">Search Github</h1>
       <div>
         <input 
